@@ -1,0 +1,114 @@
+.background_layout{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	z-index: 200;
+	background-color: rgba(0,0,0,0.7)
+}
+.main_page_forms{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 540px;
+	background-color: #FFFFFF;
+	z-index: 300;
+	border: 1px solid #d5d5d5;
+	font-family: GothamLight;
+}
+.main_page_forms_top{
+	border-bottom: 1px solid #d5d5d5;
+	padding: 30px;
+}
+.main_page_forms_top_item{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	text-align: left;
+	font-size: 18px;
+	line-height: 18px;
+	font-family: GothamLight;
+	cursor: pointer;
+}
+.main_page_forms_top_item_toreg, .main_page_forms_top_item_tologin{
+	text-align: right;
+	color: $blue;
+	font-weight: bold;
+}
+.main_page_forms_form{
+	padding: 30px;
+	.main_page_forms_form_label{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 14px;
+		line-height: 40px;
+		width: 170px;
+		margin-bottom: 30px;
+
+	}
+	.main_page_forms_form_input{
+		display: inline-block;
+		vertical-align: top;
+		width: 285px;
+		font-size: 14px;
+		line-height: 14px;
+		border: 1px solid #d5d5d5;
+		@include border(2px);
+		padding: 11px 10px;
+		margin-bottom: 30px;
+	}
+	.main_page_forms_form_no_bottom{
+		margin-bottom: 10px;
+	}
+}
+.main_page_forms_form_bottom{
+	margin-left: 170px;
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 30px;
+}
+.checkbox_indicator{
+	display: inline-block;
+	vertical-align: top;
+	height: 12px;
+	width: 12px;
+	border: 1px solid #d5d5d5;
+	@include border(1px)
+}
+#remember_me{
+	display: none;
+}
+#remember_me:checked + .checkbox_indicator{
+	background-image: url("../img/checkbox.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+.main_page_forms_form_bottom_label{
+	display: inline-block;
+	vertical-align: top;
+}
+.main_page_forms_form_bottom_forget{
+	display: block;
+	float: right;
+	color: $blue;
+	cursor: pointer;
+	text-decoration: none;
+}
+.blue_button{
+	margin-left: 170px;
+	display: block;
+	width: 175px;
+	color: #ffffff;
+	background-color: $blue;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 14px 0;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}

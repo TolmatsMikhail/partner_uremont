@@ -1,0 +1,19 @@
+body {
+	font-family: Gotham, Tahoma, sans-serif;
+	font-size: 0;
+}
+div {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.centerblock{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+h1, h2, h3, h4, h5, h6, p, div {
+	margin: 0;
+	padding: 0;
+}

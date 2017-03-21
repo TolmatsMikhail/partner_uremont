@@ -1,0 +1,43 @@
+.header_main_page {
+	background-color: $blue;
+	color: #ffffff;
+	a{
+		color: #ffffff;
+		text-decoration: none;
+		font-family: GothamBold;
+	}
+}
+.head_item{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	text-align: left;
+	padding: 20px 0;
+	line-height: 38px;
+	img{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 15px;
+	}
+}
+.head_item_mainlink{
+	display: block;
+}
+.head_item_right{
+	text-align: right;
+	padding: 0;
+}
+.head_item_link{
+	display: inline-block;
+	padding: 20px 25px;
+	font-size: 12px;
+	cursor: pointer;
+	img{
+		margin: 0 17px;
+	}	
+}
+.head_item_link_regist{
+	border: 1px solid #7bbada;
+	border-top: none;
+	border-bottom: none;
+}

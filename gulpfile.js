@@ -1,15 +1,15 @@
 var gulp = require('gulp');
 var scss = require('gulp-sass');
 //var browserSync = require('browser-sync');
+var cleanCSS = require('gulp-clean-css');
 
 //emmet-lifestyle - плагин, для записывания изменений из консоли сразу в код
 
 
 gulp.task('scss', function(){
   return gulp.src('app/sass/style.scss')
-   .pipe(scss(
-     //{outputStyle: 'compressed'}
-   ).on('error', scss.logError))
+   .pipe(scss())
+   .pipe(cleanCSS())
    .pipe(gulp.dest('app/css'));
 });
 

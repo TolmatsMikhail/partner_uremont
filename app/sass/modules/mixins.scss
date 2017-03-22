@@ -37,3 +37,6 @@ $font: #272727;
 	-khtml-border-radius: $radius;
 	border-radius: $radius;
 }
+body * {
+	box-sizing: border-box;
+}

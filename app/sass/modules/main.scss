@@ -366,6 +366,7 @@
 	padding-left: 40px;
 	cursor: pointer;
 	transition: all 150ms linear;
+	display: block;
 	img{
 		display: inline-block;
 		vertical-align: middle;
@@ -783,7 +784,7 @@
 	vertical-align: top;
 	height: 50px;
 	padding: 5px 0 0 0;
-	width: 365px;
+	width: 30%;
 }
 .user_manage_choose_var_word{
 	font-size: 14px;
@@ -792,7 +793,7 @@
 }
 .date_container_item{
 	background-color: #FFF;
-	width: 140px;
+	width: 18%;
 	font-size: 14px;
 	line-height: 14px;
 	border: 1px solid #c9c9c9;
@@ -801,7 +802,7 @@
 	vertical-align: top;
 	padding: 5px 0 5px 10px;
 	height: 27px;
-
+	position: relative;
 }
 .date_container{
 	border-top-left-radius: 3px;
@@ -815,18 +816,43 @@
 .date_container_item_new{
 	background-color: $blue;
 	color: #ffffff;
-	width: 200px;
+	width: 25%;
 	text-align: center;
 	border: none;
-	margin-right: 20px;
+	margin-right: 2.5%;
 	padding-left: 0
 }
 .user_manage_choose_var_second{
-	width: 790px;
+	width: 65%;
+	.date_period{
+		width: 22%;
+	}
+	.date_container_item_choosegroup{
+		width: 30%;
+		border-left: none;
+	}
 }
 .date_container_item_new_add{
-	width: 96px
+	width: 20.5%;
+	cursor: pointer;
+	margin-right: 0
 }
-.date_container_item_choosegroup{
-	width: 260px
+.user_manage_choose_var_first{
+	.date_container, .date_period{
+		width: 35%;
+	}
+
+}
+.choosing_arrow{
+	position: absolute;
+	right: 5px;
+	top: 0;
+	line-height: 27px;
+	height: 27px;
+	cursor: pointer;
+}
+.choosing_arrow_img{
+	vertical-align: middle;
+	width: 100%;
+
 }

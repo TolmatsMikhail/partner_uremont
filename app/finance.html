@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" id="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Обратная связь</title>
+    <title>Финансы</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/resize.js"></script>
@@ -50,7 +50,9 @@
 		</div>
     </header>
     <main class="main_lk">
-		<!-- <div class="background_layout hidden">
+
+		
+		<div class="background_layout hidden">
 		    <div id="add_wallet_form" class="main_page_forms">
 		    	<div class="main_page_forms_top">
 		    		<div class="main_page_forms_top_item">
@@ -75,7 +77,7 @@
 					</button>
 		    	</form>
 		    </div>	
-		</div> -->
+		</div>
 
 
 		<div class="main_lk_content">
@@ -85,10 +87,15 @@
 				</div>
 				<div class="top_money_block">
 					<div id="payments_button" class="money_button money_button_line">
-						Обратная связь
+						Выплаты
 					</div>
 					<div id="accrued" class="money_button">
-						История переписки
+						Начисления
+					</div>
+					<div class="add_wallet">
+						<div class="add_wallet_point">
+							+ Добавить кошелек
+						</div>
 					</div>
 				</div>
 
@@ -208,90 +215,148 @@
 			</div>
 
 			<div class="main_lk_moneyout">
-				<div class="feedbacks_icons">
-					<a class="feedbacks_icons_item">
-						<img src="img/logo_feed1.png" alt="">						
-						<p>
-							начало работы
-						</p>
-					</a>
-					<a class="feedbacks_icons_item">
-						<img src="img/logo_feed2.png" alt="">						
-						<p>
-							маркетинг
-						</p>
-					</a>
-					<a class="feedbacks_icons_item">
-						<img src="img/logo_feed3.png" alt="">						
-						<p>
-							обратная связь
-						</p>
-					</a>
-					<a class="feedbacks_icons_item">
-						<img src="img/logo_feed4.png" alt="">						
-						<p>
-							форум
-						</p>
-					</a>
-				</div>
-				
-				<div class="feedback_form">
-					<form action="">
-						<div class="feedback_form_item feedback_form_text">
-							Имя	
-						</div>
-						<div class="feedback_form_item feedback_form_text">
-							Фамилия
-						</div>
-
-						<input type="text" class="feedback_form_item feedback_form_input">
-						<input type="text" class="feedback_form_item feedback_form_input">
-
-						<div class="feedback_form_item feedback_form_text">
-							Контактный
-						</div>
-						<div class="feedback_form_item feedback_form_text">
-							Контактный E-mail
-						</div>
-
-						<input type="text" class="feedback_form_item feedback_form_input">
-						<input type="email" class="feedback_form_item feedback_form_input">
-						
-						<div class="feedback_form_item feedback_form_text">
-							Вкратце опишите возникшую проблему	
-						</div>
-
-
-						<textarea name="" id="" cols="30" rows="10" class="feedback_form_item feedback_form_textarea"></textarea>
-
-						<div class="feedback_form_item feedback_form_text_small">
-							Вкратце опишите возникшую проблему	
-						</div>
-						<div class="feedback_form_item feedback_form_text">
-							Прикрепить файлы	
-						</div>
-
-
-						<div class="feedback_form_addfile">
-							<img src="img/logo_clip.png" alt="">
-							<span>
-								Добавить файл
-							</span>
-						</div>
-
-
-						<div class="feedback_form_blue_button">
-							<span class="blue_button">
-								Отправить
-							</span>
-						</div>
-
-
-
-					</form>
+				<div class="main_lk_moneyout_orders">
+					Заказы выплат
 				</div>
 
+				<div class="main_lk_moneyout_order main_lk_moneyout_order_get">
+					Заказать
+				</div>
+				<div class="main_lk_moneyout_order main_lk_moneyout_order_wallet">
+					Добавить кошелек
+				</div>
+				<div class="main_lk_table_money">
+					<div class="main_lk_table_row">
+						<div class="main_lk_table_money_cell">
+							№
+						</div>
+						<div class="main_lk_table_money_cell">
+							Платежная система
+						</div>
+						<div class="main_lk_table_money_cell">
+							Номер счета
+						</div>
+						<div class="main_lk_table_money_cell">
+							Сумма
+						</div>
+						<div class="main_lk_table_money_cell">
+							Статус
+						</div>
+						<div class="main_lk_table_money_cell">
+							Заказана
+						</div>
+					</div>
+					<div class="main_lk_table_row">
+						<div class="main_lk_table_money_cell">
+							5432
+						</div>
+						<div class="main_lk_table_money_cell">
+							Web Money
+						</div>
+						<div class="main_lk_table_money_cell">
+							08-3830
+						</div>
+						<div class="main_lk_table_money_cell">
+							34 000
+						</div>
+						<div class="main_lk_table_money_cell">
+							Рассматривается
+						</div>
+						<div class="main_lk_table_money_cell">
+							Пусто
+						</div>
+					</div>
+					<div class="main_lk_table_row">
+						<div class="main_lk_table_money_cell">
+							5432
+						</div>
+						<div class="main_lk_table_money_cell">
+							Web Money
+						</div>
+						<div class="main_lk_table_money_cell">
+							08-3830
+						</div>
+						<div class="main_lk_table_money_cell">
+							34 000
+						</div>
+						<div class="main_lk_table_money_cell">
+							Рассматривается
+						</div>
+						<div class="main_lk_table_money_cell">
+							Пусто
+						</div>
+					</div>
+					<div class="main_lk_table_row">
+						<div class="main_lk_table_money_cell">
+							5432
+						</div>
+						<div class="main_lk_table_money_cell">
+							Web Money
+						</div>
+						<div class="main_lk_table_money_cell">
+							08-3830
+						</div>
+						<div class="main_lk_table_money_cell">
+							34 000
+						</div>
+						<div class="main_lk_table_money_cell">
+							Рассматривается
+						</div>
+						<div class="main_lk_table_money_cell">
+							Пусто
+						</div>
+					</div>
+				</div>
 
+				<div class="main_lk_moneyout_orders">
+					Прочие выплаты
+				</div>
+
+
+				<div class="main_lk_table_money main_lk_table_money_another">
+				 	<div class="main_lk_table_row">
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							#
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							Дата
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							Сумма
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							Статус
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							Комментарий
+						</div>
+					</div>
+					<div class="main_lk_table_row">
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							5464
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							02.02.2017
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							100500
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							Рассматривается
+						</div>
+						<div class="main_lk_table_cell main_lk_table_cell_anothermoney">
+							Хз что тут писать вообще
+						</div>
+					</div> 
+				</div>
+
+				<div class="main_lk_table_money main_lk_table_money_empty">
+					<div class="main_lk_table_row">
+						<div class="emptycell">
+							Пусто
+						</div>
+					</div>
+				</div>
 			</div>
 
 

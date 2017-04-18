@@ -1,0 +1,31 @@
+.main_stats{
+	.user_manage_choose_var{
+		width: 70%;
+	}
+	.date_container{
+		max-width: 140px;
+	}
+	.date_period{
+		max-width: 115px;
+		margin-right: 20px
+	}
+	.date_container_item:last-child{
+		width: 180px;
+		max-width: none
+	}
+	.statistics{
+		width: 100%
+	}
+	.statistics_row:first-child{
+		font-weight: bold;
+	}
+	.main_stats__balance{
+		width: 26%;
+	}
+	.main_stats__status{
+		width: 38%;
+	}
+	.main_stats__user{
+		width: 36%
+	}
+}

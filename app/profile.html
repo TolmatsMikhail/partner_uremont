@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Статистика</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/resize.js"></script>
+
+</head>
+<body>
+    <header class="header_lk">
+		<div class="header_lk_menu">
+			<a class="header_lk_menu_logo" href="" class="">
+				<img src="img/logo_lk.png" alt="">
+			</a>
+			<div class="header_lk_menu_balance">
+				<img src="img/logo_rouble.png" alt="">
+				<div class="header_lk_menu_balance_text">
+					Мой баланс:
+				</div>
+				<div class="header_lk_menu_balance_text header_lk_menu_balance_money">
+					45 000
+				</div>
+				<span class="header_lk_menu_balance_withdraw">
+					Вывести
+				</span>
+			</div>
+
+			<div class="header_lk_menu_user">
+				<div class="header_lk_menu_user_photo">
+					<img src="http://cs9.pikabu.ru/post_img/2017/02/25/2/1487983345195390543.jpg" alt="">
+				</div>
+				<div class="header_lk_menu_user_greetings">
+					<p class="">
+						Здравствуйте, 
+					</p>
+					<p class="">
+						Павел Геннадьевич
+					</p>
+				</div>
+			</div>
+
+			<div class="header_lk_menu_search">
+				<input type="text" class="header_lk_menu_search_input" placeholder="Поиск">
+				<img src="img/logo_loupe.png" alt="" class="looup">
+			</div>
+		</div>
+    </header>
+    <main class="main_lk user_profile">
+		<div class="main_lk_content">
+			<div class="user_manage">
+				<div class="burger">
+					<img src="img/logo_burger.png" alt="" class="burger_image">
+				</div>
+				<div class="user_left_menu">
+					<div class="user_left_menu_item">
+						<img src="img/menu_icon1.png" alt="">
+						<img src="img/menu_icon1_white.png" alt="">
+						Каналы
+					</div>
+					<div class="user_left_menu_item">
+						<img src="img/menu_icon2.png" alt="">
+						<img src="img/menu_icon2_white.png" alt="">
+						Статистика
+					</div>
+					<div class="user_left_menu_item">
+						<img src="img/menu_icon3.png" alt="">
+						<img src="img/menu_icon3_white.png" alt="">
+						Финансы
+					</div>
+					<div class="user_left_menu_item">
+						<img src="img/menu_icon4.png" alt="">
+						<img src="img/menu_icon4_white.png" alt="">
+						Поддержка
+					</div>
+					<div class="user_left_menu_item">
+						<img src="img/menu_icon5.png" alt="">
+						<img src="img/menu_icon5_white.png" alt="">
+						Настройки
+					</div>
+					<div class="user_left_menu_item">
+						<img src="img/menu_icon6.png" alt="">
+						<img src="img/menu_icon6_white.png" alt="">
+						Выход
+					</div>
+					<div class="user_left_menu_close">
+						<img src="img/logo_close_menu.png" alt="" class="user_left_menu_close_image">
+					</div>
+				</div>
+			</div>
+				
+			<div class="user_profile__blocks">
+				<input type="radio" class="user_profile__input_radio" name="user_profile__blocks__input" id="user_profile__blocks__input1" checked>
+				<label for="user_profile__blocks__input1" class="user_profile__blocks__label">
+					Профиль пользователя
+				</label>
+
+
+				<div class="user_profile__blocks__item">
+					<div class="user_profile__blocks__item__word">
+						Имя
+					</div>
+					<input type="text" class="user_profile__blocks__item__input" placeholder="Василий">
+					<img src="img/pen.png" alt="" class="user_profile__blocks__item__img">
+
+					<div class="user_profile__blocks__item__word">
+						E-mail
+					</div>
+					<input type="text" class="user_profile__blocks__item__input" placeholder="californi@bk.ru">
+					<img src="img/pen.png" alt="" class="user_profile__blocks__item__img">
+
+					<div class="user_profile__blocks__item__word">
+						Фото
+					</div>
+					<input type="file" id="label__photo" style="display: none">
+					<label for="label__photo" class='user_profile__blocks__item__input user_profile__blocks__item__input_file'>
+						Загрузить фото
+					</label>
+
+					<div class="user_profile__blocks__item__save">
+						<button class="user_profile__blocks__item__save__button">
+							Сохранить изменения
+						</button>
+					</div>
+
+
+
+				</div>
+
+
+				</input>
+				<input type="radio" class="user_profile__input_radio" name="user_profile__blocks__input" id="user_profile__blocks__input2">
+				<label for="user_profile__blocks__input2" class="user_profile__blocks__label">
+					Настройки выплат
+				</label>
+				</input>
+				<input type="radio" class="user_profile__input_radio" name="user_profile__blocks__input" id="user_profile__blocks__input3">
+				<label for="user_profile__blocks__input3" class="user_profile__blocks__label">
+					Смена паролья
+				</label>
+				</input>
+				<input type="radio" class="user_profile__input_radio" name="user_profile__blocks__input" id="user_profile__blocks__input4">
+				<label for="user_profile__blocks__input4" class="user_profile__blocks__label">
+					Договор оферты
+				</label>
+				</input>
+			</div>
+
+		</div>
+    </main>
+    <footer class="footer_lk">
+
+    </footer>
+	<script src="js/lk.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+.user_profile{
+	.user_manage{
+		display: inline-block;
+		vertical-align: top;
+		width: 70px;
+	}
+}
+.user_profile__blocks{
+	display: inline-block;
+	vertical-align: top;
+	width: 1100px;
+}
+.user_profile__input_radio{
+	display: none;
+	&:checked + .user_profile__blocks__label{
+		position: relative;
+		background-color: #e8e8e8;
+		&::after{
+			position: absolute;
+			content: '';
+			display: block;
+			width: 10px;
+			height: 10px;
+			border: 3px solid #b4b2ac;
+			border-bottom: none;
+			border-left: none;
+			transform: rotate(45deg);
+			top: 16px;
+			right: 16px;
+			transition: all 200ms linear;
+		}
+	} 
+}
+.user_profile__blocks{
+	position: relative;
+	border: 1px solid #ababab;
+	width: 250px;
+	border-radius: 5px;
+	background-color: #FFF;
+
+}
+.user_profile__blocks__label{
+	display: block;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 14px 0 14px 30px;
+	font-family: GothamLight;
+	cursor: pointer;
+	transition: all 200ms linear;
+	&:hover{
+		background-color: #e8e8e8;
+		transition: all 200ms linear;
+	}
+}
+.user_profile__blocks__item{
+	position: absolute;
+	width: 800px;
+	left: 270px;
+	top: 0;
+	background-color: #FFF;
+	border: 1px solid #ababab;
+	border-radius: 5px;
+	padding: 15px 28px;
+}
+.user_profile__blocks__item__word{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 36px;
+	font-size: 14px;
+	font-family: GothamLight;
+	width: 120px;
+	margin-bottom: 37px;
+}
+.user_profile__blocks__item__input{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 36px;
+	font-size: 14px;
+	width: 490px;
+	font-size: 14px;
+	line-height: 34px;
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+	padding-left: 20px;
+	outline: none;
+	background-color: #fafafa;
+	margin-bottom: 37px;
+	font-family: GothamLight;
+}
+.user_profile__blocks__item__img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-bottom: 37px;
+
+}
+.user_profile__blocks__item__input_file{
+	width: 550px;
+	text-align: center;
+	color: #9c9c9c
+}
+.user_profile__blocks__item__save{
+	text-align: right;
+}
+.user_profile__blocks__item__save__button{
+	border: none;
+	outline: none;
+	background-color: #3da4d9;
+	color: #ffffff;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 14px;
+	width: 220px;
+	text-align: center;
+	padding: 16px 0;
+}
